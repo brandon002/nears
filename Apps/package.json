@@ -1,0 +1,87 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/material-ui": "^0.21.12",
+    "@types/node": "^16.18.14",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-google-recaptcha": "^2.1.5",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.3.4",
+    "browserslist": "^4.21.5",
+    "chakra-ui-autocomplete": "^1.4.5",
+    "chart.js": "^4.3.0",
+    "compressorjs": "^1.2.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.12.8",
+    "history": "^5.3.0",
+    "http-proxy-middleware": "^2.0.6",
+    "is-empty": "^1.2.0",
+    "jwt-decode": "^3.1.2",
+    "material-symbols": "^0.5.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-google-recaptcha": "^3.1.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-tabs": "^6.0.0",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-observable": "^2.0.0",
+    "redux-thunk": "^2.4.2",
+    "rxjs": "^7.8.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install-client": "cd ./ && npm install",
+    "build-client": "cd ./ && npm run build",
+    "start-client": "cd ./ && npm run start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-redux": "^7.1.25",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^8.0.1",
+    "tailwindcss": "^3.2.7"
+  }
+}
