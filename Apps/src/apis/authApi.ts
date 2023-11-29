@@ -1,6 +1,6 @@
 import axios from "axios";
-// const API_URL = "http://localhost:5000/api/users";
-const API_URL = "https://api-nears.onrender.com/api/users";
+const API_URL = "http://localhost:5000/api/users";
+// const API_URL = "https://api-nears.onrender.com/api/users";
 const headers = { 'Access-Control-Allow-Origin': '*' };
 export const register = async (userData: any) => {
   try {
